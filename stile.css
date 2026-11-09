@@ -5,3 +5,65 @@ input, button { width: 100%; padding: 8px; box-sizing: border-box; }
 button { margin-top: 20px; background: #1F2328; color: white; border: none; border-radius: 8px; }
 .errore { border: 2px solid #B32D2D; }
 .msg-errore { color: #B32D2D; font-size: 13px; margin: 4px 0 0; }
+
+.card {
+    width: 360px;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.prodotto {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.valore-risultato {
+    font-size: 48px;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.testo-fascia {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.super {
+    background-color: #E3EEF9;
+    border-color: #2F6FB3;
+}
+
+.buono {
+    background-color: #E3F4E6;
+    border-color: #256D34;
+}
+
+.piccolo {
+    background-color: #FCEBD7;
+    border-color: #9A4F06;
+}
+
+.super .testo-fascia {
+    color: #2F6FB3;
+}
+
+.buono .testo-fascia {
+    color: #256D34;
+}
+
+.piccolo .testo-fascia {
+    color: #9A4F06;
+}
+
+.link-riprova {
+    display: inline-block;
+    margin-top: 24px;
+    color: #1F2328;
+    font-size: 14px;
+}
